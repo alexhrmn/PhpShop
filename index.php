@@ -14,8 +14,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="/Phpshop/template/js/html5shiv.js"></script>
+    <script src="/Phpshop/template/js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
@@ -341,12 +341,12 @@
 
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/price-range.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/main.js"></script>
+<script src="/Phpshop/template/js/jquery.js"></script>
+<script src="/Phpshop/template/js/bootstrap.min.js"></script>
+<script src="/Phpshop/template/js/jquery.scrollUp.min.js"></script>
+<script src="/Phpshop/template/js/price-range.js"></script>
+<script src="/Phpshop/template/js/jquery.prettyPhoto.js"></script>
+<script src="/Phpshop/template/js/main.js"></script>
 </body>
 </html>
 
