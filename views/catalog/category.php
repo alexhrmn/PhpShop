@@ -1,6 +1,6 @@
-<?php include ROOT . '/views/layouts/header.php'; ?>
+<?php include '/Users/alex/PhpProjects/Phpshop/views/layouts/header.php';?>
 
-<section>
+    <section>
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -57,4 +57,4 @@
     </div>
 </section>
 
-<?php include ROOT . '/views/layouts/footer.php'; ?>
+<?php include '/Users/alex/PhpProjects/Phpshop/views/layouts/footer.php';?>
