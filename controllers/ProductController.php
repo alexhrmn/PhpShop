@@ -1,7 +1,7 @@
 <?php
 
-include_once ROOT . '/models/Category.php';
-include_once ROOT . '/models/Product.php';
+include_once '/Users/alex/PhpProjects/models/Category.php';
+include_once '/Users/alex/PhpProjects/models/Product.php';
 
 class ProductController
 {
@@ -14,7 +14,7 @@ class ProductController
         
         $product = Product::getProductById($productId);
 
-        require_once(ROOT . '/views/product/view.php');
+        require_once('/Users/alex/PhpProjects/views/product/view.php');
 
         return true;
     }
