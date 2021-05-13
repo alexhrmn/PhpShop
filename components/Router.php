@@ -7,7 +7,7 @@ class Router
 
     public function __construct()
     {
-        $routesPath ='/Users/alex/PhpProjects/config/routes.php';
+        $routesPath ='/Users/alex/PhpProjects/Phpshop/config/routes.php';
         $this->routes = include($routesPath);
     }
 
@@ -47,7 +47,7 @@ class Router
                 $parameters = $segments;
                 
                 // Подключить файл класса-контроллера
-                $controllerFile = '/Users/alex/PhpProjects/controllers/' .
+                $controllerFile = '/Users/alex/PhpProjects/Phpshop/controllers/' .
                         $controllerName . '.php';
 
                 if (file_exists($controllerFile)) {

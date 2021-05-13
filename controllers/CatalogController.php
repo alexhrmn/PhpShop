@@ -1,7 +1,7 @@
 <?php
 
-include_once '/Users/alex/PhpProjects/models/Category.php';
-include_once '/Users/alex/PhpProjects/models/Product.php';
+include_once '/Users/alex/PhpProjects/Phpshop/models/Category.php';
+include_once '/Users/alex/PhpProjects/Phpshop/models/Product.php';
 
 class CatalogController
 {
@@ -14,7 +14,7 @@ class CatalogController
         $latestProducts = array();
         $latestProducts = Product::getLatestProducts(12);
 
-        require_once('/Users/alex/PhpProjects/views/catalog/index.php');
+        require_once('/Users/alex/PhpProjects/Phpshop/views/catalog/index.php');
 
         return true;
     }
@@ -27,7 +27,7 @@ class CatalogController
         $categoryProducts = array();
         $categoryProducts = Product::getProductsListByCategory($categoryId);
        
-        require_once('/Users/alex/PhpProjects/views/catalog/category.php');
+        require_once('/Users/alex/PhpProjects/Phpshop/views/catalog/category.php');
 
         return true;
     }

@@ -1,6 +1,6 @@
 <?php
 
-include_once '/Users/alex/PhpProjects/models/Blog.php';
+include_once '/Users/alex/PhpProjects/Phpshop/models/Blog.php';
 
 class BlogController
 {
@@ -10,7 +10,7 @@ class BlogController
         $blogList = array();
         $blogList = Blog::getBlogList();
 
-        require_once('/Users/alex/PhpProjects/views/blog/index.php');
+        require_once('/Users/alex/PhpProjects/Phpshop/views/blog/index.php');
 
         return true;
     }
@@ -19,7 +19,7 @@ class BlogController
     {
         if ($id) {
             $newsItem = Blog::getNewsItemById($id);
-            require_once('/Users/alex/PhpProjects/views/blog/view.php');
+            require_once('/Users/alex/PhpProjects/Phpshop/views/blog/view.php');
         }
 
         return true;
